@@ -22,6 +22,7 @@ public class CustomerController {
     public ResponseEntity<CustomerResponse> saveCustomer(@Valid @RequestBody CustomerResponse customerResponse) {
         CustomerResponse response = customerService.saveCustomer(customerResponse);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
+
     }
 
     @GetMapping
