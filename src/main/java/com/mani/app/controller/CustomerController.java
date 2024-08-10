@@ -1,14 +1,14 @@
 package com.mani.app.controller;
 
 import com.mani.app.dto.CustomerResponse;
-import com.mani.app.entity.Customer;
 import com.mani.app.service.CustomerService;
+
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController
