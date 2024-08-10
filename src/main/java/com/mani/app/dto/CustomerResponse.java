@@ -1,9 +1,8 @@
 package com.mani.app.dto;
 
 
+import jakarta.validation.constraints.*;
 import lombok.*;
-
-import javax.validation.constraints.*;
 
 @Data
 @AllArgsConstructor
